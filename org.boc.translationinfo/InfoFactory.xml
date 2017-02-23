@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.boc.translationinfo.info.factory">
+   <property name="service.ranking" type="Integer" value="100"/>
+   <service>
+      <provide interface="org.adempiere.webui.factory.IInfoFactory"/>
+   </service>
+   <implementation class="org.boc.translationinfo.InfoFactory"/>
+   <property name="service.ranking" type="Integer" value="100"/>
+</scr:component>
